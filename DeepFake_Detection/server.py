@@ -228,8 +228,8 @@ def DetectPage():
         confidence = prediction[1]
         data = {'output': output, 'confidence': confidence}
         data = json.dumps(data)
-        os.remove(video_path);
+        os.remove(video_path)
         return render_template('index.html', data=data)
         
 
-app.run(port=3000);
+app.run(port=3000)
