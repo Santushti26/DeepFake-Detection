@@ -6,21 +6,24 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","
     font-weight: 900;           /* Bold text */
     font-style: italic;         /* Italicize */
     color: #ffffff;             /* White text */
-    margin: 0% ;             /* Center the title */
+    margin: 0 auto;             /* Center the title */
     text-align: center; 
-    padding-left: 200px;        /* Center text */
-    padding-bottom: 0%;
+    padding: 200px;        /* Center text */
 }
 
-
+/* Paragraph Styling */
+/* Paragraph Styling */
+/* Paragraph Styling */
+/* Paragraph Styling */
 .para {
     font-family: Arial, sans-serif; /* Fallback font for the paragraph */
-    font-size: 22px;                /* Font size */
+    font-size: 25px;                /* Font size */
     color: #d1d1d1;                 /* Lighter grey color */
-    margin: 0;                      /* Remove margin */
-    padding: 0;                     /* Remove padding */
-    line-height: 1;                 /* Set line height to 1 to minimize space */
-    padding-left: 250px;
+    padding-top: 0;                     /* Remove margin */
+    margin: 0;
+    padding-left: 200px;              /* Space above the paragraph */
+    padding-bottom: 0;
+    padding-right: 200pp;
 }
-.footer{background-color:#4ecca3;width:100%;height:8vh;bottom:0;position:absolute}p.footer1{color:#fff;top:2vh;font-weight:700;font-size:2vh}.detectHeading,p.footer1{margin:0;position:relative;text-align:center}.detectHeading{top:13vh;color:#16f7fa;font-size:4vh;padding:0}.background1{background-image:url("C:/User/ansh sharma/Desktop/DeepFake-Detection/DeepFake_Detection/bg image.png") no-repeat;background-size:cover;height:100%}.background1,.button{position:relative;text-align:center}.button{background-color:#4ecca3;height:3vh;transition-duration:.4s;width:9vw;border-radius:1.5vh;margin:auto;font-weight:700;font-size:1.3vw;display:inline-block;vertical-align:middle;border:2px solid #4ecca3}.button:hover{background-color:#fff}.nav{z-index:10;position:absolute}ul{margin-left:40px;margin-top:40px}li,ul{border:none}li{text-decoration:none;display:inline;text-align:left;font-family:Arial,Helvetica,sans-serif;padding:20px;font-weight:700;font-size:20px}
+.footer{background-color:#4ecca3;width:100%;height:8vh;bottom:0;position:absolute}p.footer1{color:#fff;top:2vh;font-weight:700;font-size:2vh}.detectHeading,p.footer1{margin:0;position:relative;text-align:center}.detectHeading{top:13vh;color:#16f7fa;font-size:4vh;padding:0}.background1{background-image:url("C:/User/ansh sharma/Desktop/DeepFake-Detection/DeepFake_Detection/bg image.png") no-repeat; backdrop-filter: blur(15px);background-size:cover;height:100%}.background1,.button{position:relative;text-align:center}.button{background-color:#4ecca3;height:3vh;transition-duration:.4s;width:9vw;border-radius:1.5vh;margin:auto;font-weight:700;font-size:1.3vw;display:inline-block;vertical-align:middle;border:2px solid #4ecca3}.button:hover{background-color:#fff}.nav{z-index:10;position:absolute}ul{margin-left:40px;margin-top:40px}li,ul{border:none}li{text-decoration:none;display:inline;text-align:left;font-family:Arial,Helvetica,sans-serif;padding:20px;font-weight:700;font-size:20px}
 /*# sourceMappingURL=main.03d2e280.chunk.css.map */
